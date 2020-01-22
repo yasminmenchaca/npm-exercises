@@ -1,11 +1,8 @@
 const $ = require('jquery');
 
-const sayHello = (name) => {
-  return 'Hello ' + name;
-};
-
-console.log(sayHello("Yasmin"));
-
 $(document).ready(function(){
  $("#message").html("This is Hello World by JQuery");
 });
+
+import {sayHello} from './say-hello.js';
+console.log(sayHello("Steve"));
