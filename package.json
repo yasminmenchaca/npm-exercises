@@ -1,0 +1,29 @@
+{
+  "name": "npm-exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "jquery": "^3.4.1",
+    "webpack": "^4.41.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasminmenchaca/npm-exercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yasminmenchaca/npm-exercises/issues"
+  },
+  "homepage": "https://github.com/yasminmenchaca/npm-exercises#readme"
+  "scripts": {
+    "build": "webpack"
+  }
+}
